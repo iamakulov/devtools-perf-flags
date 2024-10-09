@@ -83,3 +83,27 @@ In the bottom part of the selection, you’ll see exactly how long it is:
 ![](https://user-images.githubusercontent.com/2953267/218892846-01a5654d-7a2c-4d14-b844-21b8cff51598.jpg)
 
 **How to enable:** this is enabled by default but is surprisingly hard to discover.
+
+## Zoom into a specific range in the timeline
+
+To zoom into a specific range in the timeline, click and drag the mouse over the range you want to zoom into in the Timeline and highlight the range.
+
+![Zoom into a specific range in the timeline](/media/zoom-into-a-specific-range-in-the-timeline.png)
+
+In the preceding screenshot, the highlighted range is marked in red. Clicking on the magnifying glass will zoom into the selected range.
+
+This is also documented in the [official documentation](https://developer.chrome.com/docs/devtools/performance/reference#navigate).
+
+## Measuring the duration of a task or function
+
+It is possible to quickly measure the duration of a task or function by Shift + selecting it in the flamechart:
+
+![Measuring a task or function in Performance panel](/media/measuring-a-task-or-function-in-performance-panel.png)
+
+In the preceding screenshot, the Task duration is highlighted and the Summary shows the range of the selected task.
+
+## Hide tasks or functions in the performance trace
+
+To hide tasks or functions in the flamechart, right-click on the task or function in the flamechart and select _Hide function (H)_ or _Hide children (C)_ from the context menu.
+
+![Hide tasks or functions in the performance trace](/media/hide-tasks-or-functions.png)
